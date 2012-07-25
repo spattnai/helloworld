@@ -35,9 +35,13 @@ public class firstprogram
 			else
 				price=15.00+75.00+5*(connections-10)+50.00*channel;
 			System.out.println("Account number="+accountnumber);
-			System.out.println("Account due=$"+price);		
+			System.out.println("Account due=$"+price);
 			break;
-		}	
+		}
+		case 'C':case 'c':
+		{
+			break;
+		}
 		default:
 			System.out.println("The customer code you have entered is not valid");
 	}
