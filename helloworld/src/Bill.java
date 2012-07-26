@@ -38,6 +38,7 @@ public class Bill {
 		}	
 		default:
 			System.out.println("The customer code you have entered is not valid");
+			System.out.println("Please try again.");
 	}
 }
 
